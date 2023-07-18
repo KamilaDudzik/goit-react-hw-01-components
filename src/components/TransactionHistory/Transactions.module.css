@@ -1,0 +1,26 @@
+.transactionHistory {
+  max-width: 450px;
+  box-shadow: 0px 3px 13px -7px rgba(66, 68, 90, 1);
+  background-color: darkgray;
+  border-collapse: collapse;
+}
+.categoryRow {
+  padding: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+.categoryItem {
+  padding: 15px;
+  width: 175px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.tableList {
+  background-color: white;
+}
+
+.tableList:nth-of-type(2n) {
+  background-color: lightgray;
+}
